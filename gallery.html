@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Rayhan W</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">PENCARI DAJAL.</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="sejarah.html">Sejarah</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <section class="gallery-section">
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/postimg1.png" class="gallery-img" alt="Pigeon 1" />
+        <img src="images/postimg2.png" class="gallery-img" alt="Pigeon 2" />
+        <img src="images/postimg3.png" class="gallery-img" alt="Pigeon 3" />
+      </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="imgFull" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
